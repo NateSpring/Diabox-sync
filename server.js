@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-app.post('/endpoint', (req, res) => {
+app.post('/entries', (req, res) => {
     const data = req.body;
     console.log(data)
     res.json(data);
