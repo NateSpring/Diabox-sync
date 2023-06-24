@@ -1,8 +1,1 @@
-runtime: nodejs14
-
-env_variables:
-  ENDPOINT_URL: "/endpoint"
-
-handlers:
-  - url: /endpoint
-    script: auto
+runtime: nodejs16
