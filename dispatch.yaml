@@ -1,0 +1,12 @@
+runtime: nodejs14
+
+env_variables:
+  ENDPOINT_URL: "/endpoint"
+
+handlers:
+  - url: /endpoint
+    script: auto
+
+  - url: /.*
+    static_files: public/index.html
+    upload: public/index.html
