@@ -5,6 +5,7 @@ app.use(express.json());
 
 app.post('/', (req, res) => {
     const data = req.body;
+    console.log(data)
     res.json(data);
 });
 
